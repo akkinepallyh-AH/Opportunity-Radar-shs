@@ -1,76 +1,53 @@
-# Hackathon — [DEV ARENA]
+# 🚀 OpportunityRadar X
 
-Welcome to the official hackathon repository by [GDG,UCE-OU].
-This repository serves as the starting point for all participating teams.
-Title of your repository shall be : team-(your team name)
+**Autonomous AI Career Strategist**
 
-## Team Details
+OpportunityRadar X is a premium career strategist platform built with Next.js. it helps users analyze job opportunities, predict acceptance probabilities, and generate personalized application content using AI.
 
-After forking, fill in your team details below in your fork's README
+## 🛠️ Getting Started on Another Computer
 
-- **Team Name:**
-- **Team Lead:**
-- **Team Members:**
-  - Member 1:
-  - Member 2:
-  - Member 3:
-  - Member 4:
+If you want to run this project on a different machine, follow these steps:
 
----
+### 1. Prerequisites
+- [Node.js](https://nodejs.org/) (Version 18 or higher recommended)
+- [Git](https://git-scm.com/)
 
-
-## Getting Started
-
-### Step 1 — Fork this Repository
-- Click the **Fork** button at the top right of this page
-- Select your GitHub account to fork into
-- You will be redirected to your own copy of this repository
-
-### Step 2 — Clone your Fork Locally
+### 2. Setup
+Clone the repository and enter the directory:
 ```bash
-git clone https://github.com/your-username/hackathon-repo
-cd hackathon-repo
+git clone https://github.com/RaghavaAkkinepally-ARK/opportunity-radar-xy.git
+cd opportunity-radar-xy
 ```
 
-### Step 3 — Start Building
-- Work on your project inside your forked repository
-- Commit and push your changes regularly
-
+### 3. Install Dependencies
+Run this command to install all required packages:
 ```bash
-git add .
-git commit -m "Your commit message"
-git push origin main
+npm install
 ```
 
----
+### 4. Run the Application
+You have two options to run the app:
 
-## Problem Statement
+#### Option A: Development Mode (Best for editing)
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-[Write your problem statement here]
+#### Option B: Production Mode (Best for performance)
+```bash
+npm run build
+npm run start
+```
 
----
+## 🧠 Key Features
+- **AI Matching**: Automated skill-gap analysis.
+- **Outcome Simulation**: "What-If" scenarios for job applications.
+- **WhatsApp Share**: Integrated social sharing for career roles.
+- **Content Generation**: Automated cover letters and cold emails.
 
-## Submission Guidelines
-
-- All code must be pushed to your **forked repository**
-- Your repository must be **public**
-- **Submission Deadline:** [17th april 3:59pm]
-
----
-
-## 📋 Rules & Regulations
-
-- Use of AI is permitted
-- Use of open source libraries is permitted
-- Plagiarism will lead to immediate disqualification
-- The decision of the judges will be final
-
----
-## Contact
-
-For any queries, reach out to us at:
-- **contact number** : [7981972900]
-
----
-
-> Good luck to all participating teams! 
+## 📂 Project Structure
+- `/app`: Main page routes and layouts.
+- `/components`: UI components (AICoach, CareerCard, PredictionEngine).
+- `/lib`: Core logic and AI scoring algorithms.
+- `/types`: TypeScript definitions.
